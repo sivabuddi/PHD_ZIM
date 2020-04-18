@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-04-18T12:05:17-05:00
+
+====== Home ======
+Created Saturday 18 April 2020
+
+
+===== 04/17/2020😃️TASK COMPLETED ON APRIL-17-2020 =====
+
+I executed FFNN and CNN from mnist using Tendulkar lectures(NPTEL)
+1. https://www.youtube.com/watch?v=4KDMChgUUyU&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=22,
+2. https://www.youtube.com/watch?v=aOIjhET4nps&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=23, 
+
+Executed on google collab and stored in github:
+
+Github Link: https://github.com/sivabuddi/Deep_Learning_Fall2019/tree/master/CNN%20vs%20FFNN.
+
+
+===== 04/18/2020😃️TASK COMPLETED ON APRIL-18-2020 =====
+1. KDM Project (Paper writing: https://github.com/charantej224/CS5560_KDM_Project)
+2. Transfer Learning with pre-trained CNNs
+		  [[(Tendulkar:NPTEL]] link https://www.youtube.com/watch?v=ISoRnJfM04c&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=24)
+3. Transfer Learning with TF-Hub
