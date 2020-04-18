@@ -23,3 +23,4 @@ Created Saturday 18 April 2020
 	* [[TensorFlow:Transfer Learning:TF Hub|TF-Hub]]
 		  (Tendulkar:NPTEL link https://www.youtube.com/watch?v=ISoRnJfM04c&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=24)
 3. pre-trained model (CNN + FFNN)
+4. [[TensorFlow:Image Classification|Image Classification]]

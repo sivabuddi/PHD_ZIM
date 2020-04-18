@@ -5,3 +5,5 @@ Creation-Date: 2020-04-18T16:49:29-05:00
 ====== Image Classification ======
 Created Saturday 18 April 2020
 
+* [[https://www.tensorflow.org/tutorials/images/classification|Tensor Flow Official]]
+* [[https://www.youtube.com/watch?v=SGfj9Dw75Ms&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=26|Youtube]]
