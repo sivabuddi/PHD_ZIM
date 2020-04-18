@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-04-18T12:56:04-05:00
+
+====== youtube ======
+Created Saturday 18 April 2020
+
+I executed FFNN and CNN from mnist using Tendulkar lectures(NPTEL)
+1. https://www.youtube.com/watch?v=4KDMChgUUyU&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=22,
+2. https://www.youtube.com/watch?v=aOIjhET4nps&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=23, 

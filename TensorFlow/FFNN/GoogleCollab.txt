@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-04-18T12:57:25-05:00
+
+====== GoogleCollab ======
+Created Saturday 18 April 2020
+
+Google Collab Link :  https://colab.research.google.com/drive/1byVCuYeXOktEUe3yf3LCb5Jw-DZgFPcJ (FFNN)

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-04-18T13:00:43-05:00
+
+====== youtube ======
+Created Saturday 18 April 2020
+
+NPTEL Link: https://www.youtube.com/watch?v=gcNDJNzipGQ&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=25

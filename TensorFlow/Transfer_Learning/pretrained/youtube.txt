@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-04-18T13:00:01-05:00
+
+====== youtube ======
+Created Saturday 18 April 2020
+
+Tendulkar:NPTEL link https://www.youtube.com/watch?v=ISoRnJfM04c&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=24
