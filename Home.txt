@@ -22,3 +22,4 @@ Github Link: https://github.com/sivabuddi/Deep_Learning_Fall2019/tree/master/CNN
 2. Transfer Learning with pre-trained CNNs
 		  [[(Tendulkar:NPTEL]] link https://www.youtube.com/watch?v=ISoRnJfM04c&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=24)
 3. Transfer Learning with TF-Hub
+4. pre-trained model [CNN(Feature Genearation / Engineering) + FFNN (Classification)]
