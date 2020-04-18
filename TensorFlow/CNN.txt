@@ -5,6 +5,8 @@ Creation-Date: 2020-04-18T12:51:25-05:00
 ====== CNN ======
 Created Saturday 18 April 2020
 
-I executed FFNN and CNN from mnist using Tendulkar lectures(NPTEL)
-1. https://www.youtube.com/watch?v=4KDMChgUUyU&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=22,
-2. https://www.youtube.com/watch?v=aOIjhET4nps&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=23, 
+
+* [[TensorFlow:CNN:Github|Github]]
+* [[TensorFlow:CNN:GoogleCollab]]
+* [[TensorFlow:CNN:youtube|Youtube]]
+

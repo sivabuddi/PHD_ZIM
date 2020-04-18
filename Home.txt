@@ -6,23 +6,20 @@ Creation-Date: 2020-04-18T12:05:17-05:00
 Created Saturday 18 April 2020
 
 
-===== 04/17/2020😃️TASK COMPLETED ON APRIL-17-2020 =====
+===== Friday 17 April 2020 😃️TASK COMPLETED =====
 
-I executed FFNN and CNN from mnist using Tendulkar lectures(NPTEL)
-1. https://www.youtube.com/watch?v=4KDMChgUUyU&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=22,
-2. https://www.youtube.com/watch?v=aOIjhET4nps&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=23, 
+* I executed [[TensorFlow:FFNN|FFNN]] and [[TensorFlow:CNN|CNN]] from mnist using Tendulkar lectures(NPTEL)
+	[*] [[TensorFlow:FFNN:GoogleCollab|FFNN]] Google Collab using [[TensorFlow:FFNN:youtube|youtube]] , results stored in [[TensorFlow:FFNN:Github|Github Link]]
+	[*] [[TensorFlow:CNN:GoogleCollab|CNN]] Google Collab  using [[TensorFlow:CNN:youtube|youtube]] , results stored in  [[TensorFlow:CNN:Github|Github Link]]
+    
 
-Executed on google collab and stored in github:
+===== Saturday 18 April 2020😃️TASK COMPLETED =====
+1. [[KDM Project]] 
+	* [[KDM Project:Overleaf|Paper Writing]]
+	* [[KDM Project:github|github link]]     
 
-Github Link: https://github.com/sivabuddi/Deep_Learning_Fall2019/tree/master/CNN vs FFNN.
-Collab Link:
-				   1.  https://colab.research.google.com/drive/1byVCuYeXOktEUe3yf3LCb5Jw-DZgFPcJ (FFNN)
-				   2.  https://colab.research.google.com/drive/1gifwXom_6pq2qg5wlbd1grSumiqntkev (CNN)
-
-===== 04/18/2020😃️TASK COMPLETED ON APRIL-18-2020 =====
-1. KDM Project (Paper writing: https://github.com/charantej224/CS5560_KDM_Project)
-	Overleaf Link: https://www.overleaf.com/project/5e6a76b7be3059000114d667
-3. Transfer Learning with pre-trained CNNs
+2. [[TensorFlow:Transfer Learning|Transfer Learning]] 
+	* [[TensorFlow:Transfer Learning:pretrained|pre-trained CNNs]]
+	* [[TensorFlow:Transfer Learning:TF Hub|TF-Hub]]
 		  (Tendulkar:NPTEL link https://www.youtube.com/watch?v=ISoRnJfM04c&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=24)
-3. Transfer Learning with TF-Hub
-4. pre-trained model [CNN(Feature Genearation / Engineering) + FFNN (Classification)]
+3. pre-trained model (CNN + FFNN)
