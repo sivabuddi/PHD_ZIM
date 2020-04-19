@@ -39,6 +39,11 @@ Created Saturday 18 April 2020
       
        
 3. RNN 
+	* [[https://github.com/sivabuddi/Deep_Learning_Fall2019/blob/master/CNN%20vs%20FFNN/RNN/Simple_RNN.ipynb|Simple RNN]] ([[https://www.youtube.com/watch?v=KjDWcYHclOM&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=31|Youtube Link]])
+	* LSTM (To avoid the problem of Vanishing Gradient Problem) addressing ([[https://www.youtube.com/watch?v=aZQw0kQ3SIA&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=32|Youtube Link,]] [[https://www.tensorflow.org/tutorials/text/text_classification_rnn|TensorFlow Official]])
+	* Time series Forecasting ([[https://www.youtube.com/watch?v=i9Ci9iUMddc&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=33|Youtube Link]])
+	* Text Generation with RNN's ([[https://www.youtube.com/watch?v=un_SNEBH-0E&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=34|Youtube Link]])
+
 
 
 
