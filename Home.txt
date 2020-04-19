@@ -9,8 +9,8 @@ Created Saturday 18 April 2020
 ===== Friday 17 April 2020 😃️TASK COMPLETED =====
 
 * I executed [[TensorFlow:FFNN|FFNN]] and [[TensorFlow:CNN|CNN]] from mnist using Tendulkar lectures(NPTEL)
-	[*] [[TensorFlow:FFNN:GoogleCollab|FFNN]] Google Collab using [[TensorFlow:FFNN:youtube|youtube]] , results stored in [[TensorFlow:FFNN:Github|Github Link]]
-	[*] [[TensorFlow:CNN:GoogleCollab|CNN]] Google Collab  using [[TensorFlow:CNN:youtube|youtube]] , results stored in  [[TensorFlow:CNN:Github|Github Link]]
+	[*] [[TensorFlow:FFNN:GoogleCollab|FFNN]] (Tendulkar) Google Collab using [[TensorFlow:FFNN:youtube|youtube]] , results stored in [[TensorFlow:FFNN:Github|Github Link]]
+	[*] [[TensorFlow:CNN:GoogleCollab|CNN]] (Tendulkar) Google Collab  using [[TensorFlow:CNN:youtube|youtube]] , results stored in  [[TensorFlow:CNN:Github|Github Link]]
     
 
 ===== Saturday 18 April 2020😃️TASK COMPLETED =====
@@ -21,6 +21,33 @@ Created Saturday 18 April 2020
 2. [[TensorFlow:Transfer Learning|Transfer Learning]] 
 	* [[TensorFlow:Transfer Learning:pretrained|pre-trained CNNs]]
 	* [[TensorFlow:Transfer Learning:TF Hub|TF-Hub]]
-		  (Tendulkar:NPTEL link https://www.youtube.com/watch?v=ISoRnJfM04c&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=24)
+ 
 3. pre-trained model (CNN + FFNN)
+
 4. [[TensorFlow:Image Classification|Image Classification]]
+
+===== Sunday 19 April 2020😃️TASK COMPLETED =====
+1. Image Classification
+	* CNN ([[https://www.tensorflow.org/tutorials/images/classification|TensorFlow Official,]] [[https://github.com/sivabuddi/Deep_Learning_Fall2019/blob/master/CNN%20vs%20FFNN/CNN_Overfitting_Augmentation_Dropout/Image_Classification_tf_keras.ipynb|Personal]])
+	* Overfitting (When no.of.training examples are insufficient, it leads to a problem called Overfitting. To avoid that, dropout(regularization,data augumenation(flipping))
+		[*] [[https://colab.research.google.com/drive/1TzvkczNjzVkCQqJIwedcDC3GJZVzIIFG#scrollTo=fc3ggKd7hNow|Data Augmentation]] ([[https://github.com/sivabuddi/Deep_Learning_Fall2019/blob/master/CNN%20vs%20FFNN/CNN_Overfitting_Augmentation_Dropout/Image_Classification_tf_keras.ipynb|Github]])
+		[*] [[https://colab.research.google.com/drive/1TzvkczNjzVkCQqJIwedcDC3GJZVzIIFG#scrollTo=fc3ggKd7hNow|Dropout]] (Regularization [[https://github.com/sivabuddi/Deep_Learning_Fall2019/blob/master/CNN%20vs%20FFNN/CNN_Overfitting_Augmentation_Dropout/Image_Classification_tf_keras.ipynb|Github]])
+
+2. Word Embeddings
+	[*] [[https://www.tensorflow.org/tutorials/text/word_embeddings|TensorFlow Official]]
+	[*] [[https://github.com/sivabuddi/Deep_Learning_Fall2019/blob/master/WordEmbeddings/Word_Embeddings_Tendulkar_TensorFlow.ipynb|Github Link]] on [[https://colab.research.google.com/drive/1HUYQT9ASRROnmo9XX4lvQq2pYzubVuuX|Goolge Collab]]
+      
+       
+3. RNN 
+
+
+
+
+
+
+
+
+
+
+
+
