@@ -80,6 +80,7 @@ Created Saturday 18 April 2020
 ===== May 10 2020😃️TASK COMPLETED =====
 
 [[https://www.youtube.com/watch?v=m2cg32uEeZw|LSTM Cell State]] Best Explanation.
+[[https://www.youtube.com/watch?v=FzS3tMl4Nsc|Autoconcoder]] 
 
     
 
