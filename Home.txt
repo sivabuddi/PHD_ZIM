@@ -40,11 +40,48 @@ Created Saturday 18 April 2020
        
 3. RNN 
 	* [[https://github.com/sivabuddi/Deep_Learning_Fall2019/blob/master/CNN%20vs%20FFNN/RNN/Simple_RNN.ipynb|Simple RNN]] ([[https://www.youtube.com/watch?v=KjDWcYHclOM&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=31|Youtube Link]])
-	* LSTM (To avoid the problem of Vanishing Gradient Problem) addressing ([[https://www.youtube.com/watch?v=aZQw0kQ3SIA&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=32|Youtube Link,]] [[https://www.tensorflow.org/tutorials/text/text_classification_rnn|TensorFlow Official]])
+	* LSTM (To avoid the problem of [[https://www.youtube.com/watch?v=JIWXbzRXk1I|Vanishing Gradient Problem]]) addressing ([[https://www.youtube.com/watch?v=aZQw0kQ3SIA&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=32|Youtube Link,]] [[https://www.tensorflow.org/tutorials/text/text_classification_rnn|TensorFlow Official]])
 	* Time series Forecasting ([[https://www.youtube.com/watch?v=i9Ci9iUMddc&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=33|Youtube Link]])
 	* Text Generation with RNN's ([[https://www.youtube.com/watch?v=un_SNEBH-0E&list=PLOzRYVm0a65cTV_t0BYj-nV8VX_Me6Es3&index=34|Youtube Link]])
+4. [[https://www.youtube.com/watch?v=DKSZHN7jftI&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi|Quick Review on Deep Neural Netowks]]
+
+===== Monday 20 April 2020😃️TASK COMPLETED =====
+1. [[https://www.youtube.com/watch?v=DKSZHN7jftI&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi|Quick Review on Deep Neural Netowks]]
 
 
+===== Tuesday 21 April 2020😃️TASK COMPLETED =====
+1. Graph Theory 
+	* Classification of Algorithms (NP problems)
+		* [[https://www.youtube.com/watch?v=RoDR40UG--s|isomorphism,]] [[https://www.youtube.com/watch?v=dlAsKXCXWTE|Isomorphism1,]] [[https://www.youtube.com/watch?v=lk5-dlvUhLE&t=191s|isomorphism2]]
+		* [[https://www.youtube.com/watch?v=NURfHCt8RYk|B]][[https://www.youtube.com/watch?v=NURfHCt8RYk|i]][[https://www.youtube.com/watch?v=NURfHCt8RYk|p]][[https://www.youtube.com/watch?v=NURfHCt8RYk|a]][[https://www.youtube.com/watch?v=NURfHCt8RYk|rted Graph,]] [[https://www.youtube.com/watch?v=GhjwOiJ4SqU|BipartedGraph,]] [[https://www.youtube.com/watch?v=GhjwOiJ4SqU|Biparted Graphs]]
+
+===== Thursday 23 April 2020😃️TASK COMPLETED =====
+	* Euler path(Visit all edges extactly once, enusure starting and ending vertices should be different)
+		* Verified  these condition(all vertices are even degree, atmost 2 vertices with odd degree)
+	* Euler Circuit(Visit all edges exacty once, ensure starting and ending vertices should be same)
+		* Verified these condition(all vertices are even degree) 
+	* Hamilton Path (Visit all vertices exactly once, ensure starting and ending vertices should be different)
+	* Hamilton Cycle / Circuit (Visit all vertices exactly once, ensure starting and ending verices should be same)
+	* These no theorm proved to verfity the cycle  / path which is Hamilton.
+	* Applications for Hamilton is Travelling Saleman Problem (TSP); Visit all the cities in the country with minimum charge(weight;edges)
+	* Dijkstra's Shortest path (may work or may not work for negative weights) [[https://www.youtube.com/watch?v=5GT5hYzjNoo|Dijstras shortest path]]
+	* Prims MST (preserves n-1 edges from n vertices(Spanning tree property)) vs Dijstra's (Only focus on min path. Does not require to preserve spanning tree property)
+	* Bellman- Ford Algorithm for Single Source Shortest path
+	* Travelling Salesman Problem (using Dynamic Programming) [[https://www.youtube.com/watch?v=hh-uFQ-MGfw|TSP_DP_Link1]]
+		* Time complexity using Brute force method to solve TSP (n!) where n is no.of.vertices
+		* Time complexity using Dynamci Programming to solve TSP(exponential (2 ^n * ....)
+	* Travelling Salesman Problem (using Branch and Bound) 
+		* Branch and Bound (Suitable for optimization problems especially to minimize the cost) using BFS(Breadth First Search)
+		* BFS Strategy (Visit, Explore) using Queue Data Structure (FIFO).
+		* Branch and Bound using Back tracking (DFS)(LIFO)
+		* Branch and Bound using Least_Cost using Branch & Bound (Select the least cost using branch and bound)
+
+
+===== May 10 2020😃️TASK COMPLETED =====
+
+[[https://www.youtube.com/watch?v=m2cg32uEeZw|LSTM Cell State]] Best Explanation.
+
+    
 
 
 
