@@ -5,3 +5,59 @@ Creation-Date: 2020-09-02T14:32:44-05:00
 ====== Proj Prop ======
 Created Wednesday 02 September 2020
 
+Brief Notes on ClinicalBERT:
+
+1)  ClinicalBert uncovers high-quality relationships between medical concepts as judged by humans. ClinicalBert outperforms baselines on 30-day hospital readmission prediction using
+both discharge summaries and the first few days of notes in the intensive care unit.
+2)  Problem with ML Techniques: Unstructured, high-dimensional, and sparse information such as clinical notes are difficult to use in clinical machine learning models.
+3) Compared to structured features, clinical notes provide a richer picture of the patient since they describe symptoms, reasons for diagnoses,
+radiology results, daily activities, and patient history.
+4) Designing ClinicalBERT:  Accurately predicting readmission has clinical significance both in terms of efficiency and reducing the burden on intensive care unit doctors.
+5) They develop a discharge support model, ClinicalBert, that processes a patient’s notes and dynamically assigns a risk score of whether the patient will be readmitted within 30 days.  As physicians and nurses write notes about a patient, ClinicalBert processes the notes and updates the associated risk score of readmission. This score can help care providers make informed decisions and intervene in advance if needed. ClinicalBert is also
+readily adapted to other tasks such as diagnosis predictions, mortality risk estimation, or length of stay assessments.
+6) Word embedding models such as word2vec are trained using clinicalBERT the local context of individual words, but as clinical notes are long and their words are interdependent (Zhang et al., 2018), these methods cannot capture long-range dependencies. 
+7) Clinical notes require capturing interactions between distant words. The need to model this long-range structure makes clinical notes suitable for contextual representations like in the bidirectional encoder representations from transformers
+(bert) model.
+8)  Significance of ClinicalBERT: 
+	* ClinicalBert shows improved readmission prediction over methods that center on discharge summaries.
+	* To build a clinically-relevant model, we define a task for predicting readmission at any timepoint since a patient was admitted.    
+	* To evaluate models on the readmission prediction task, we define a metric motivated by a clinical challenge. Medicine suffers from alarm fatigue (Sendelbach and Funk, 2013). This
+	means useful classification rules for medicine need to have high positive predictive value or precision. We evaluate model performance at a fixed positive predictive value. We show
+	that ClinicalBert has highest recall compared to other popular methods for representing  clinical notes.
+	* In addition, self-attention weight output by ClinicalBert can be traced back to understand which elements of clinical notes were relevant to the current prediction.
+	* Compared to a popular model of clinical text, word2vec, ClinicalBert more accurately captures clinical word similarity. We describe one way to scale up ClinicalBert to handle large collections of clinical notes for clinical prediction tasks. 
+[*] ClinicalBert learns deep representations of clinical text. These deep representations can be used to uncover clinical insights, such as predictions of disease, relationships between treatments and outcomes, or summaries of large volume of texts.
+[*] The transformer encoder architecture is based on a self-attention mechanism, and the pre-training objective function for the model is defined using two unsupervised tasks: masked language modeling and next sentence prediction. 
+
+=== Clinical Text Embeddings: ===
+[*] A clinical note input to ClinicalBert is represented as a collection of tokens.
+[*] In ClinicalBert, a token in a clinical note is computed as the sum of the token embedding, a learned segment embedding, and a position embedding.
+	* Segment Embedding:  When multiple sequences of tokens are fed to ClinicalBert, the segment embedding identifies which sequence a token is associated with.    
+	* Position Embedding:  The position embedding of a token is a learned set of parameters corresponding to the token’s position in the input sequence (position embeddings are shared across tokens).
+
+=== Self-Attention Mechanism: ===
+[*] The attention function is computed on an input sequence, using the embeddings associated with the input tokens. 
+[*] The attention function takes as input a set of queries, keys, and values.
+[*] To construct the queries, keys, and values, every input embedding is multiplied by learned sets of weights. For a single query, the output of the attention function is a weighted combination of values.
+[*] The weight of a given value is determined by the interaction of the query and key. 
+[*] This function can be computed efficiently and can capture long-range interactions between any two elements in the input sequence.
+
+=== Pre-training ClinicalBert: ===
+* The quality of learned representations of text depends on the text the model was trained on. BERT is trained on BooksCorpus and Wikipedia. However, these two datasets are distinct from clinical notes, where jargon and abbreviations are
+
+common and notes have different syntax and grammar than common language in books or encyclopedias. It is hard to understand clinical notes without professional training. ClinicalBert is pre-trained on clinical notes as follows.
+* ClinicalBert uses the same pre-training tasks as BERT
+[*] Masked language modeling consists of masking 15% of the input tokens and using the model to predict the masked tokens.
+[*] In next sentence prediction, two sentences are fed to the model
+[*] The pre-training objective function based on the two tasks is the sum of the log-likelihood of the masked tokens and the log-likelihood of the binary variable indicating whether two sentences are consecutive
+   
+
+
+
+    
+
+
+
+
+
+
