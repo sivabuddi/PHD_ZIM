@@ -1,0 +1,64 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-09-03T08:05:52-05:00
+
+====== Spark ======
+Created Thursday 03 September 2020
+Basic idea of Spark: [[https://www.youtube.com/watch?v=KzFe4T0PwQ8|Spark]] (See the difference between RDD(Resilient Distributed DataSets) vs DSM(Distributed Shared Memory)),
+Note: Spark is not replace of Hadoop since its helpful to design application framework  for Bigdata applications  and still it needs to run on a storage system like Hadoop. 
+[[MapR]] is the only commercial distribution that supports complete stack of Spark, Spark Sequel  and graphx.
+[[MapR]] supports  standalone and YARN Mode
+Spark supports all editions of [[MapR]] such as community edition, enterprise edition and enterprise  database edition. 
+Spark is always better to run on top of [[MapR]] compare to any other distributions.
+[ ] Enterprise platform (Availability, Durability, Disaster Recovery and data protection)
+[ ] wide range of applicaions
+[ ] Combine workouts (batch, interactive and streaming workflows )
+[ ] In memory 
+
+Spark and [[MapR]] combine to work together, its run operational and analytical work loads on a single cluster in a highly performance, scalable, durable.
+
+
+ [[https://www.youtube.com/watch?v=70JZem2i2tA|Spark1]]
+
+Why Spark, not hadoop? [[Why is Spark not Hadoop?|Spark_Hadoop]]
+[ ] Map reduce solves only batch processing
+[ ] Spark solves general purpose cluster computing system (Real time data and batch processing)
+What is spark compose of?
+[ ] spark SQL
+[ ] Spark Streaming
+[ ] MLib
+[ ] graphx
+[ ] Data Frames (Running on top of all the frameworks)
+
+Componentes in Apache Architecture
+[ ] Driver (master) [Spark Context]
+[ ] Worker [Executor]
+
+
+Spark Abstractions:
+1. RDD (Resileint Distributed Datasets)
+[ ] Transformers are generated as Directed Acyclic Graphs (DAG)
+[ ] DAG can be recomputed during failure
+[ ] Transormations such as
+	* Map
+	* Filter
+	* flatMap
+	* textFile
+[ ] Immutable
+    
+
+Lifecycle in Spark:
+1) Streaming the data (Data sources, Database, File system etc..)
+2) Transformation 
+3) Actions
+4) UI Dash Board,  Processed Data
+
+Summary of Life cyle in Spark:
+1) Load data on cluster
+2) create RDD
+3) Do transformations
+4) Perform action
+5) Create Data frames
+6) Perform queries on data frame
+7) Run SQL on data frames
+
