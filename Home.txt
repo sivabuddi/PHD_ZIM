@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2020-04-18T12:05:17-05:00
 
 ====== Home ======
@@ -79,8 +79,15 @@ Created Saturday 18 April 2020
 
 ===== May 10 2020😃️TASK COMPLETED =====
 
-[[https://www.youtube.com/watch?v=m2cg32uEeZw|LSTM Cell State]] Best Explanation.
+[[https://www.youtube.com/watch?v=m2cg32uEeZw|LSTM CelldState]] Best Explanation.
 [[https://www.youtube.com/watch?v=FzS3tMl4Nsc|Autoconcoder]] 
+
+
+===== Sept 2 2020😃️Work =====
+[*] Zoom metting with Prof. Xu and Suman sahil 4.pm
+[*] Clinical BERT Objective in brief: [[Proj Prop CHF:Proj Prop|ClinicalBERT]]
+
+
 
     
 

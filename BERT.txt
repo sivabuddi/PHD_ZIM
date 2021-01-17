@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-09-10T09:52:28-05:00
+
+====== BERT ======
+Created Thursday 10 September 2020
+
+[[https://www.youtube.com/watch?v=h_U27jBNYI4|Basic Explanation]]
+
+[[https://jonathan-hui.medium.com/nlp-bert-transformer-7f0ac397f524|bert good explanation]]

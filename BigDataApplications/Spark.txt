@@ -13,7 +13,8 @@ Spark is always better to run on top of [[MapR]] compare to any other distributi
 [ ] Enterprise platform (Availability, Durability, Disaster Recovery and data protection)
 [ ] wide range of applicaions
 [ ] Combine workouts (batch, interactive and streaming workflows )
-[ ] In memory 
+[ ] In memory performance
+[ ] Unlimited scale
 
 Spark and [[MapR]] combine to work together, its run operational and analytical work loads on a single cluster in a highly performance, scalable, durable.
 
@@ -21,9 +22,12 @@ Spark and [[MapR]] combine to work together, its run operational and analytical 
  [[https://www.youtube.com/watch?v=70JZem2i2tA|Spark1]]
 
 Why Spark, not hadoop? [[Why is Spark not Hadoop?|Spark_Hadoop]]
-[ ] Map reduce solves only batch processing
+[ ] Map reduce solves only batch processing (Hadoop supports only batch processing)
+[ ] Apache Spark is open soruce cluster computing framework
+[ ] Spark can run 10 times faster than Hadoop.
 [ ] Spark solves general purpose cluster computing system (Real time data and batch processing)
 What is spark compose of?
+[ ] Spark Core (High level programming framwork and these stes are defined by RDD)
 [ ] spark SQL
 [ ] Spark Streaming
 [ ] MLib
@@ -32,23 +36,33 @@ What is spark compose of?
 
 Componentes in Apache Architecture
 [ ] Driver (master) [Spark Context]
-[ ] Worker [Executor]
+[ ] Worker [Executor] perform different tasks 
 
 
 Spark Abstractions:
 1. RDD (Resileint Distributed Datasets)
 [ ] Transformers are generated as Directed Acyclic Graphs (DAG)
 [ ] DAG can be recomputed during failure
-[ ] Transormations such as
+[ ] Transormations (DAG) such as
 	* Map
 	* Filter
 	* flatMap
 	* textFile
+	* groupByKey
+	* reducedBy
+[ ] Actions
+	* collect
+	* first
+	* take
+	* count
+	* reduce
+	* foreach
+[ ] Persistent (Immutable)
+[ ] Broadcast variables (optimization iterms of recomputation)
+[ ] Accumulators(accessed only by Driver program)
 [ ] Immutable
-    
-
 Lifecycle in Spark:
-1) Streaming the data (Data sources, Database, File system etc..)
+1) Loading / Streaming the data (Data sources, Database, File system etc..) into spark
 2) Transformation 
 3) Actions
 4) UI Dash Board,  Processed Data
