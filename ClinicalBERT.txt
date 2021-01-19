@@ -8,3 +8,5 @@ Created Friday 15 January 2021
 1. [[ClinicalBERT]] paper Availabe [[https://drive.google.com/file/d/1uICLxCb-v3eu6154wSdME735Ym_mm5hN/view?usp=sharing|HERE,]] Readmission [[https://drive.google.com/file/d/18q8GInFHyfrKAKtgErZuWP9ZLcSrBa5N/view?usp=sharing|HERE]]
 2. [[ClinicalBERT]] Dataset Availabe [[https://physionet.org/content/mimiciii/1.4/|HERE]]
 3. [[ClinicalBERT]] github Link [[https://github.com/kexinhuang12345/clinicalBERT|HERE]]
+4. [[MedBERT]] paper [[https://drive.google.com/file/d/1m2E0X-RQZptOABrTlH0ZFGuvT8RMFYv8/view?usp=sharing|Here]]
+Kaggle heart disease Machine Learning Techniques [[https://www.kaggle.com/cdabakoglu/heart-disease-classifications-machine-learning|Here]]
